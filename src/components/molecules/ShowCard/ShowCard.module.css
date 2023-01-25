@@ -1,0 +1,39 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.slideLink .imageWrapper {
+  height: 33rem;
+}
+
+.link:hover .image {
+  transform: scale(1.1);
+}
+
+.link:hover .imageWrapper {
+  border: 0.5rem solid rgb(255 255 255 / 75%);
+}
+
+.imageWrapper {
+  overflow: hidden;
+  border-radius: var(--secondary-border-radius);
+  border: 0.5rem solid transparent;
+  transition: border 0.3s cubic-bezier(0.2, 0, 0, 1);
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.title {
+  padding-inline: 0.5rem;
+}

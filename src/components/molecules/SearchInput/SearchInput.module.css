@@ -1,0 +1,44 @@
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: rgb(255 255 255 / 25%);
+  border: 2px solid rgb(255 255 255 / 50%);
+  border-radius: var(--primary-border-radius);
+  font-size: 1.6rem;
+  padding: 1rem 4rem 1rem 2rem;
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  width: 100%;
+}
+
+@media (width > 640px) {
+  .inputWrapper {
+    display: inline-flex;
+  }
+
+  .input {
+    min-width: 40rem;
+  }
+}
+
+.input::placeholder {
+  color: rgb(255 255 255 / 50%);
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgb(255 255 255 / 100%);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-text);
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+}

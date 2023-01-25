@@ -1,0 +1,4 @@
+.heading {
+  font-size: var(--heading-three-size);
+  font-family: var(--font-primary);
+}

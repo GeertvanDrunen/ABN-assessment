@@ -1,0 +1,13 @@
+.wrapper {
+  font-family: var(--font-primary);
+  margin-block-start: 8rem;
+  max-width: 40rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(255 255 255 / 15%);
+  padding-block: 1rem;
+}

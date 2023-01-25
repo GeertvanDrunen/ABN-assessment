@@ -1,0 +1,5 @@
+.heading {
+  font-size: var(--heading-two-size);
+  font-family: var(--font-primary);
+  margin: 0;
+}

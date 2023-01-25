@@ -1,0 +1,6 @@
+.heading {
+  margin: 1rem 0 0;
+  font-size: var(--heading-four-size);
+  font-family: var(--font-primary);
+  font-weight: 400;
+}

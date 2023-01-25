@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap");
+
+:root {
+  --color-background: #262626;
+  --color-text: #ffffff;
+  --color-primary: #00958f;
+  --color-secondary: #ffc425;
+
+  --color-white: #ffffff;
+
+  --font-primary: "Sofia Sans Condensed";
+
+  --primary-border-radius: 2.4rem;
+  --secondary-border-radius: 1.6rem;
+
+  --primary-spacing: 2rem;
+
+  --heading-one-size: 4rem;
+  --heading-two-size: 3rem;
+  --heading-three-size: 2rem;
+  --heading-four-size: 1.8rem;
+  --heading-five-size: 1.4rem;
+}
+
+@media (min-width > 768px) {
+  :root {
+    --primary-spacing: 4rem;
+    --heading-one-size: 6rem;
+    --heading-two-size: 4rem;
+    --heading-three-size: 2.8rem;
+    --heading-four-size: 2.2rem;
+    --heading-five-size: 1.8rem;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: var(--font-primary);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+body {
+  font-size: 1.6rem;
+}

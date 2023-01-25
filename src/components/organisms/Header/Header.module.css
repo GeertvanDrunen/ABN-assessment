@@ -1,0 +1,60 @@
+.header {
+  height: 8rem;
+  padding: var(--primary-spacing);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.listItem {
+  margin-left: 1rem;
+}
+
+.listIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: var(--color-text);
+  margin-right: 0.5rem;
+}
+
+.listLink {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.listLink:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+.listLink:hover .listIcon {
+  fill: var(--color-primary);
+}
+
+.listItemTitle {
+  display: none;
+}
+
+@media (width >= 640px) {
+  .listItemTitle {
+    display: inline;
+  }
+  .listItem {
+    margin-left: 3rem;
+  }
+}

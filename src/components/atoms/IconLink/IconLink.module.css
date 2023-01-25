@@ -1,0 +1,31 @@
+.link {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+.link:hover .icon {
+  fill: var(--color-primary);
+}
+
+.title {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-text);
+}

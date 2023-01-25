@@ -1,0 +1,44 @@
+.main {
+  padding-inline: var(--primary-spacing);
+  padding-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.content {
+  max-width: 100rem;
+}
+
+.image {
+  max-width: 50rem;
+  width: 100%;
+  border-radius: var(--primary-border-radius);
+}
+
+.pageWrapper {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+@media (width > 1024px) {
+  .main {
+    gap: 4rem;
+    display: grid;
+    grid-template-columns: 30rem 2fr;
+  }
+
+  .imageWrapper {
+    display: block;
+  }
+}
+
+@media (width > 1400px) {
+  .main {
+    grid-template-columns: 50rem 2fr;
+  }
+}
